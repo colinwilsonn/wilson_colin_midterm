@@ -3,22 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colin Wilson's Epic Site</title>
+    <h1>What do you think,<h1>
+
+    <style>
+        /* Style for the classses to make the text the resepctive colours*/
+        .yellow-text {
+            color:yellow
+        }
+        
+        .green-text {
+            color:green
+        }
+
+        .red-text {
+            color:red
+        }        
+        /* Changes background color to resemble pizza crust */
+        body {
+            background-color: #f0b37c;
+        }
+        /* Style for heading, container & column */ 
+        h1 {
+            text-align: center;
+            font-size: 3
+        }
+        .container {
+            display: flex;
+        }
+        .column {
+            width: 50%;
+        }
+    </style>
+
 </head>
 <body>
 
-<img src="images/drunk.jpg" alt="drunk man eating pizza">
-    <h2> The best hangover food </h2>
-<p> An amazing hangover food pizza with pineapple is absolutely delicious, In a world where there’s all sorts of different fast food options I find myself reaching for a classic pineapple pizza the most.</p>
+    <!--Using span to isolate the word pineapple to only make that part yellow -->
+    <h1>Does <span class="yellow-text">Pineapple</span> Belong On Pizza?</h1>
+    <!-- This makes the container hold two columns (YES AND NO)-->
+    <div class="container">
+        <div class="column">
+    <!-- The First Column-->
+            <h2><span class="green-text">YES</span> to Pineapple on Pizza</h2>
+         
+          <img src="images/drunk.jpg" alt="drunk man eating pizza">
+ 
+          <h2> The best hangover food </h2>
+
+          <p> An amazing hangover food pizza with pineapple is absolutely delicious, In a world where there’s all sorts of different fast food options I find myself reaching for a classic pineapple pizza the most.</p>
 <img src="images/pizza.jpeg" alt="photo of pineapple pizza">
-   <h3> the woke slice </h3> 
+ 
+          <h3> the woke slice </h3> 
 <p> Thanks to the sweet flavour pineapple adds a layer of delicious sweetness to the otherwise kinda bland taste of classic pizza, additionally to the boost in flavour pineapple adds a fun texture to each bite with the bursting of each pineapple piece
     making eating a pineapple pizza a more dynamic activity that takes you to flavour heaven after a long night out.</p> 
     <img src="images/add.png" alt="pineapple belongs on pizza promo">
 
-    <h3> the pinneapple solution </h3>
+    <h3> the pineapple solution </h3>
 <p>In conclusion pineapple definitely belongs on pizza if not only because of its delicious flavour contributions 
     then because of its textural contributions which work in tandem to turn any boring dull slice of basic pizza into a fun sweet and salty slice of heaven. </p>
+          
+        
+        </div>
+    <!-- The Second Column-->
+        <div class="column">
+            <div class="column">
+                <h2><span class="red-text">No</span> to Pineapple on Pizza</h2>
+                
+                <img src="images/eatingpizza.jpg" alt="people eating pizza in a nice environment" width="400" height="300" >
 
-</body>
-</html>
+                <p>Created in the southern Italian town of Gaeta in 997 AD, pizza has become a global staple for comfort food and represents the culinary genius of Italy. Classic Italian pizza holds hundreds of years of tradition, culture, and deliciousness in every bite.</p>
+                
+                <h3>The Classic Pizza</h3>
+                <p>The classic simplicity of tomato sauce, mozzarella cheese, a drizzle of olive oil, and basil leaves a tantalizing taste that transports you to a warm sunny day in the streets of Italy, filling both your heart and stomach with joy.</p>
+                
+                <h3>The Modern Threat</h3>
+                <p>However, pizza's classic beauty has come under attack in modern times, with the addition of ingredients like pineapple by uncultured individuals threatening the delicious sanctity of pizza.</p>
+                
+                <h3>The Pineapple Problem</h3>
+                <p>Being the most common new addition to pizza nowadays, pineapple creates:</p>
+                <ul>   
+                    <li>A disgustingly warm, soggy mess atop the defenseless slice</li>
+                    <li>A textural assault on the palate</li>
+                    <li>A sweetness that completely contradicts the natural acidity of the tomato sauce</li>
+                </ul>
+
+                <img src="images/pineapple-pizza.jpg" alt="picture of pizza box that says sorry I couldn't bring myself to put pineapple on your pizza, thats gross" width="500" height="300" >
+                
+                <h3>Conclusion</h3>
+                <p>Due to both its textural and flavor effects, pineapple simply does not belong on pizza. At most, the addition of pineapple should be seen as an attack on one of Italy's cultural crown jewels.</p>
+            
+                <img src="images/pineapplehazard.jpg" alt="anti pineapple hazard sign" width="450" height="450">
+           
+            </div>
+        </div>
+    </div>
+    
+
