@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colin Wilson's Epic Site</title>
+    <h1>What do you think,<h1>
+
+    <style>
+        /* Style for the class yellow-text to make the text yellow*/
+        .yellow-text {
+            color:yellow
+        }
+        /* Changes background color to resemble pizza crust */
+        body {
+            background-color: #f0b37c;
+        }
+        /* Style for heading, container & container */ 
+        h1 {
+            text-align: center;
+            font-size: 3
+        }
+        .container {
+            display: flex;
+        }
+        .column {
+            width: 50%;
+        }
+    </style>
+
 </head>
 <body>
+    <!--Using span to isolate the word pineapple to only make that part yellow -->
+    <h1>Does <span class="yellow-text">Pineapple</span> Belong On Pizza?</h1>
+    <!-- This makes the container hold two columns (YES AND NO)-->
+    <div class="container">
+        <div class="column">
+    <!-- The First Column-->
+            <h2>YES</h2>
+            <p>Argument supporting YES...</p>
+        </div>
+    <!-- The Second Column-->
+        <div class="column">
+            <h2>NO</h2>
+            <p>Argument supporting NO...</p>
+        </div>
+    </div>
     
 </body>
 </html>
